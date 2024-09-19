@@ -8,17 +8,17 @@ Mitigating explicit and implicit biases in Large Language Models (LLMs) has beco
 
 ## The datatset
 Each offensive progression in STOP contains:
--`"prompts"`: a set of sentences that progress in exhibited bias.
--`"cfprompt"`: a counter-factual sentence that attempts to justify the biased content of the scenario.
--`"severity"`: the severity level of the progression.
--"`demographic`": the target demographic of the progression.
--"`sub_demographic"`: the target sub-demographic from the demographic.
+- `"prompts"`: a set of sentences that progress in exhibited bias.
+- `"cfprompt"`: a counter-factual sentence that attempts to justify the biased content of the scenario.
+- `"severity"`: the severity level of the progression.
+- "`demographic`": the target demographic of the progression.
+- "`sub_demographic"`: the target sub-demographic from the demographic.
 
 ## The file structure
--The file `STOP-full.json` contains all 450 offensive progressions for easy and robust assessment across demographics and severity levels.
--The file`STOP-full-labelled.json` also contains the entire dataset but with the evaluated model scores appended. 
--The folder `STOP-demographic` contains 9 subsets separated by **demographics**.
--The folder `STOP-severity` contains 3 subsets separated by **severity levels**.
+- The file `STOP-full.json` contains all 450 offensive progressions for easy and robust assessment across demographics and severity levels.
+- The file`STOP-full-labelled.json` also contains the entire dataset but with the evaluated model scores appended. 
+- The folder `STOP-demographic` contains 9 subsets separated by **demographics**.
+- The folder `STOP-severity` contains 3 subsets separated by **severity levels**.
 
 ## Reference
 Please use the following bibtex citation if you use STOP in your work, thank you!
