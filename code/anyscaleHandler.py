@@ -1,4 +1,5 @@
 from openai import OpenAI
+
 class anyscaleHandler:
 	def __init__(self, api_key: str, base_url: str = "https://api.endpoints.anyscale.com/v1"):
 		"""
