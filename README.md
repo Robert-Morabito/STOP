@@ -22,7 +22,7 @@ Mitigating explicit and implicit biases in Large Language Models (LLMs) has beco
 ## 💾 Code and running instructions
 The required packages for utilizing this code to evaluate models on STOP can be found in the `requirements.txt`. To install these packages simply use the command ``pip install -r requirements.txt``.
 To reproduce the results of this paper, run the following command:
-  ``python llmEvaluation.py --input_path <INPUT_PATH> --output_path <OUTPUT_PATH> --model <MODEL_NAME> --openai_key <OPENAI_API_KEY> --anyscale_key <ANYSCALE_API_KEY>
+  ``python llmEvaluation.py --input_path <INPUT_PATH> --output_path <OUTPUT_PATH> --model <MODEL_NAME> --openai_key <OPENAI_API_KEY> --anyscale_key <ANYSCALE_API_KEY>``
 Where
 - <INPUT_PATH>: The file path to the STOP dataset entries being used. This should be one of the provided JSON files from the dataset.
 - <OUTPUT_PATH>: The file path to save the model responses to. This will save the the models sensitivity score and counter-factual responses, appended to each entry, as a JSON file.
