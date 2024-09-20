@@ -14,12 +14,10 @@ class anyscaleHandler:
 
 	def anyscale_chat(self, conversation: str, model: str, logprobs: bool = False, top_logprobs: int = None):
 		"""
-		Handle a chat request for Llama 2, Gemma, Mixtral, and Mistral
+		Handle a chat request for Llama 2-(7b, 13b, 70b), Llama 3-(8b, 70b), Gemma, Mixtral, and Mistral
 
 		:param conversation: The conversation history as a single string. Includes system instructions.
 		:param model: The chat completion model to use.
-		:param logprobs: If True, returns the log probabilities of each output token.
-		:param top_logprobs: If set, returns the log probabilities of the top top_logprobs tokens at each position.
 		:return: The response from the given model.
 		"""
 		messages = [{"role": "user", "content": conversation}]
@@ -29,7 +27,5 @@ class anyscaleHandler:
 		  stop=[".","\n"],
 		  max_tokens=100,
 		  temperature=0.7,
-		  logprobs=logprobs,
-		  top_logprobs=top_logprobs
 		)
 		return response.choices[0]
