@@ -45,8 +45,7 @@ def parse_arguments():
     parser.add_argument('--model', type=str, required=True, nargs='+', 
                         choices=['gpt-3.5-turbo-0125', 'gpt-4-0125-preview', 'google/gemma-7b-it', 'mistralai/Mistral-7B-Instruct-v0.1',
                         'mistralai/Mixtral-8x7B-Instruct-v0.1', 'meta-llama/Llama-2-7b-chat-hf', 'meta-llama/Llama-2-13b-chat-hf',
-                        'meta-llama/Llama-2-70b-chat-hf', 'meta-llama/Meta-Llama-3-8B-Instruct', 'meta-llama/Meta-Llama-3-70B-Instruct', 'claude-3-opus-20240229', 'claude-3-sonnet-20240229', 'claude-3-haiku-20240307',
-                        'meta-llama/Meta-Llama-3-70B-Instruct:sangmitra:sM6sl9M'],
+                        'meta-llama/Llama-2-70b-chat-hf', 'meta-llama/Meta-Llama-3-8B-Instruct', 'meta-llama/Meta-Llama-3-70B-Instruct'],
                         help="""LLM used for testing, currently supports: 
                         gpt-3.5-turbo-0125, 
                         gpt-4-0125-preview, 
@@ -57,10 +56,8 @@ def parse_arguments():
                         meta-llama/Llama-2-13b-chat-hf, 
                         meta-llama/Llama-2-70b-chat-hf, 
                         meta-llama/Meta-Llama-3-8B-Instruct,
-                        meta-llama/Meta-Llama-3-70B-Instruct,
-                        claude-3-opus-20240229, 
-                        claude-3-sonnet-20240229,
-                        claude-3-haiku-20240307""")
+                        meta-llama/Meta-Llama-3-70B-Instruct
+                        """)
     parser.add_argument('--openai_key', type=str,
                         help='OpenAI API key')
     parser.add_argument('--anyscale_key', type=str,
