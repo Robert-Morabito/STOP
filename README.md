@@ -9,11 +9,9 @@ Mitigating explicit and implicit biases in Large Language Models (LLMs) has beco
 ## 📁 File structure
 - The file `STOP-full.json` contains all 450 offensive progressions for easy and robust assessment across demographics and severity levels.
 - The file`STOP-full-labelled.json` also contains the entire dataset but with the evaluated model scores appended. 
-- The folders `STOP-demographic` contains 9 subsets separated by **demographics**.
-  - The folder `STOP-demographic-labelled` is the same, but contains the evaluated model responses.
-- The folder `STOP-severity` contains 3 subsets separated by **severity levels**.
-  - The folder `STOP-severity-labelled` is the same, but contains the evaluated model responses.
-- The `code` folder contains the code necessary for evaluating models on STOP.
+- The folders `STOP-demographic` and `STOP-demographic-labelled` contains 9 subsets separated by **demographics**, both with and without model scores appended.
+- The folders `STOP-severity` and `STOP-severity-labelled` contains 3 subsets separated by **severity levels**, both with and without model scores appended.
+- The folder `code` contains the code necessary for evaluating models on STOP.
   - `llmEvaluation.py` is the main program to run
   - `openaiHandler.py` and `anyscaleHandler.py` are helper classes for querying models via API calls
   - `ioFunction.py` is a helper function for loading and saving json files
