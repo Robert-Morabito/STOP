@@ -17,7 +17,7 @@ Mitigating explicit and implicit biases in Large Language Models (LLMs) has beco
   - `llmEvaluation.py` is the main program to run
   - `openaiHandler.py` and `anyscaleHandler.py` are helper classes for querying models via API calls
   - `ioFunction.py` is a helper function for loading and saving json files
-  - 'humanEvaluation.py' is the [tkinter](https://docs.python.org/3/library/tkinter.html) interface used for human testing
+  - `humanEvaluation.py` is the [tkinter](https://docs.python.org/3/library/tkinter.html) interface used for human testing
 
 ## 💾 Code and running instructions
 The required packages for utilizing this code to evaluate models on STOP can be found in the `requirements.txt`. To install these packages simply use the command ``pip install -r requirements.txt``.
