@@ -23,5 +23,5 @@ Each offensive progression in STOP contains:
   - The folder `STOP-severity-labelled` is the same, but contains the evaluated model responses.
 
 ## Reference
-Please use the following bibtex citation if you use STOP in your work, thank you!
+Please use the following bibtex citation if STOP was apart of your work, thank you!
 {add the arxiv reference, update once the acl anthology upload happens}
