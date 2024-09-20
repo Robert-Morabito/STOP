@@ -17,8 +17,10 @@ Each offensive progression in STOP contains:
 ## The file structure
 - The file `STOP-full.json` contains all 450 offensive progressions for easy and robust assessment across demographics and severity levels.
 - The file`STOP-full-labelled.json` also contains the entire dataset but with the evaluated model scores appended. 
-- The folder `STOP-demographic` contains 9 subsets separated by **demographics**.
+- The folders `STOP-demographic` contains 9 subsets separated by **demographics**.
+  - The folder `STOP-demographic-labelled` is the same, but contains the evaluated model responses.
 - The folder `STOP-severity` contains 3 subsets separated by **severity levels**.
+  - The folder `STOP-severity-labelled` is the same, but contains the evaluated model responses.
 
 ## Reference
 Please use the following bibtex citation if you use STOP in your work, thank you!
