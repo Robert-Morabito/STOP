@@ -20,15 +20,21 @@ Mitigating explicit and implicit biases in Large Language Models (LLMs) has beco
 ## 💾 Code and running instructions
 The required packages for utilizing this code to evaluate models on STOP can be found in the `requirements.txt`. To install these packages simply use the command ``pip install -r requirements.txt``.
 To reproduce the results of this paper, run the following command:
-
-``python llmEvaluation.py --input_path <INPUT_PATH> --output_path <OUTPUT_PATH> --model <MODEL_NAME> --openai_key <OPENAI_API_KEY> --anyscale_key <ANYSCALE_API_KEY>``
+```javascript
+python llmEvaluation.py --input_path <INPUT_PATH> --output_path <OUTPUT_PATH> --model <MODEL_NAME> --openai_key <OPENAI_API_KEY> --anyscale_key <ANYSCALE_API_KEY>
+```
 
 Where:
-- `<INPUT_PATH>`: The file path to the STOP dataset entries being used. This should be one of the provided JSON files from the dataset.
-- `<OUTPUT_PATH>`: The file path to save the model responses to. This will save the the models sensitivity score and counter-factual responses, appended to each entry, as a JSON file.
-- `<MODEL_NAME>`: The name of the model you wish to evaluate. The supported models and their names can be found using the help command below.
-- `<OPENAI_API_KEY>`: Your personal OpenAI API key
-- `<ANYSCALE_API_KEY>`: Your personal Anyscale API key
+- `<INPUT_PATH>`: the file path to the STOP dataset entries being used. This should be one of the provided JSON files from the dataset.
+- `<OUTPUT_PATH>`: the file path to save the model responses to. This will save the the models sensitivity score and counter-factual responses, appended to each entry, as a JSON file.
+- `<MODEL_NAME>`: the name of the model you wish to evaluate. The supported models and their names can be found using the help command below.
+- `<OPENAI_API_KEY>`: your personal OpenAI API key
+- `<ANYSCALE_API_KEY>`: your personal Anyscale API key
+
+This might look like:
+```javascript
+python llmEvaluation.py --input_path C:\STOP-full.json --output_path C:\STOP-full-completed.json --model gpt-4-0125-preview --openai_key abcd1234 --anyscale_key abcd1234
+```
 
 To get help with these, use the command ``python llmEvaluation.py -h`` for an explanation of each parameter.
 All code and supported models were current as of March 2024.
