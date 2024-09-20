@@ -3,7 +3,6 @@ from tkinter import *
 from tkinter import messagebox
 import json
 import random
-import pdb
 
 # Global variables to track the dataset and which entries have been used
 dataset = None
