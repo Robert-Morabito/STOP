@@ -50,6 +50,7 @@ Each offensive progression in STOP contains:
 
 ## 📖 Reference
 Please use the following bibtex citation if STOP was apart of your work, thank you!
+```latex
 @misc{morabito2024stopbenchmarkinglargelanguage,
       title={STOP! Benchmarking Large Language Models with Sensitivity Testing on Offensive Progressions}, 
       author={Robert Morabito and Sangmitra Madhusudan and Tyler McDonald and Ali Emami},
@@ -59,3 +60,4 @@ Please use the following bibtex citation if STOP was apart of your work, thank y
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2409.13843}, 
 }
+```
