@@ -51,13 +51,22 @@ Each offensive progression in STOP contains:
 ## 📖 Reference
 Please use the following bibtex citation if STOP was apart of your work, thank you!
 ```
-@misc{morabito2024stopbenchmarkinglargelanguage,
-      title={STOP! Benchmarking Large Language Models with Sensitivity Testing on Offensive Progressions}, 
-      author={Robert Morabito and Sangmitra Madhusudan and Tyler McDonald and Ali Emami},
-      year={2024},
-      eprint={2409.13843},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2409.13843}, 
+@inproceedings{morabito-etal-2024-stop,
+    title = "{STOP}! Benchmarking Large Language Models with Sensitivity Testing on Offensive Progressions",
+    author = "Morabito, Robert  and
+      Madhusudan, Sangmitra  and
+      McDonald, Tyler  and
+      Emami, Ali",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.243/",
+    doi = "10.18653/v1/2024.emnlp-main.243",
+    pages = "4221--4243"
 }
 ```
