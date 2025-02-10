@@ -1,5 +1,5 @@
 # 🛑 STOP
-This is the repository for [STOP! Benchmarking Large Language Models with Sensitivity Testing on Offensive Progressions](https://arxiv.org/abs/2409.13843), a dataset comprised of 450 offensive progressions designed to target evolving scenarios of bias and quanitfy the threshold of appropriateness. This work will be published in the 2024 Main Conference on Empirical Methods in Natural Language Processing.
+This is the repository for [STOP! Benchmarking Large Language Models with Sensitivity Testing on Offensive Progressions](https://aclanthology.org/2024.emnlp-main.243/), a dataset comprised of 450 offensive progressions designed to target evolving scenarios of bias and quanitfy the threshold of appropriateness. This work was published in the **2024 Main Conference on Empirical Methods in Natural Language Processing** and was honoured with the **Social Impact** Award.
 
 Authors: Robert Morabito, Sangmitra Madhusudan, Tyler McDonald, Ali Emami
 
