@@ -49,7 +49,7 @@ Each offensive progression in STOP contains:
 - `"sub_demographic"`: the target sub-demographic from the demographic.
 
 ## 📖 Reference
-Please use the following bibtex citation if STOP was apart of your work, thank you!
+Please use the following bibtex citation if STOP was a part of your work, thank you!
 ```
 @inproceedings{morabito-etal-2024-stop,
     title = "{STOP}! Benchmarking Large Language Models with Sensitivity Testing on Offensive Progressions",
